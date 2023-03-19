@@ -1,0 +1,40 @@
+{
+    "name": "PistrunBot",
+    "version": "0.2.0",
+    "main": "api/index.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev": "nodemon src/index.ts",
+        "prod": "npm run build && node dist/src/index.js",
+        "lint": "eslint . --cache --ext .ts,.js",
+        "format": "prettier --write 'src/**/*.ts'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BlueRexPY/PistrunBot.git"
+    },
+    "keywords": [
+        "telegram-bot"
+    ],
+    "author": "Ruslan Rystsov",
+    "license": "MIT",
+    "dependencies": {
+        "@types/mongoose": "^5.11.97",
+        "grammy": "^1.6.1",
+        "mongoose": "^7.0.2"
+    },
+    "devDependencies": {
+        "@ianvs/prettier-plugin-sort-imports": "^3.7.1",
+        "@types/node": "^17.0.5",
+        "@typescript-eslint/eslint-plugin": "^5.8.1",
+        "@typescript-eslint/parser": "^5.8.1",
+        "dotenv": "^10.0.0",
+        "eslint": "^8.5.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "nodemon": "^2.0.21",
+        "prettier": "^2.5.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.5.4"
+    }
+}

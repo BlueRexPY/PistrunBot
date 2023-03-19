@@ -1,0 +1,31 @@
+{
+	"trailingComma": "all",
+	"tabWidth": 2,
+	"singleQuote": true,
+	"jsxSingleQuote": true,
+	"printWidth": 110,
+	"semi": true,
+	"arrowParens": "always",
+	"jsxBracketSameLine": true,
+	"bracketSpacing": true,
+	"bracketSameLine": true,
+	"endOfLine": "lf",
+	"importOrder": [
+		"^grammy(.*)",
+		"src/(.*)$",
+		"<THIRD_PARTY_MODULES>",
+		"^[./|~/]"
+	],
+	"importOrderBuiltinModulesToTop": true,
+	"importOrderCaseInsensitive": true,
+	"importOrderParserPlugins": [
+		"typescript",
+		"jsx",
+		"decorators-legacy"
+	],
+	"importOrderMergeDuplicateImports": true,
+	"importOrderCombineTypeAndValueImports": true,
+	"importOrderSeparation": false,
+	"importOrderSortSpecifiers": true,
+	"importOrderSortSpecifiersCaseInsensitive": true
+}
